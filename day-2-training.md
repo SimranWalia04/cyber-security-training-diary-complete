@@ -1,61 +1,52 @@
-Day 2 – Kali Linux Basics
+# Day-02_Kali-linux-basics
 
-Environment: Kali Linux
+**Environment:** Kali Linux
 
-Topics Covered
+## Topics
+- **Main Topic:** Kali Linux Basics
+- **Focus:** Desktop Environment, Terminal, and Lab Safety
 
-- Main Topic: Kali Linux Basics
-- Focus: Desktop Environment, Terminal, and Lab Safety
-
-Learning Notes
+## Learning Notes
 
 Kali Linux is a Linux-based operating system commonly used for cybersecurity education, security testing, and digital forensics. It provides a desktop environment for graphical tasks and a terminal for entering commands.
 
-1. Desktop Environment
+The **desktop environment** allows users to interact with applications, folders, settings, and files using a graphical interface.
 
-The desktop environment allows users to interact with applications, folders, settings, and files using a graphical interface.
+The **terminal** allows users to control the system by entering text commands. Some useful beginner commands include:
 
-2. Terminal and Basic Commands
+- `pwd` — displays the current working directory.
+- `ls` — lists files and directories.
+- `cd` — changes the current directory.
+- `whoami` — displays the current username.
+- `clear` — clears the visible terminal screen.
+- `man ls` — opens the manual for the `ls` command.
 
-The terminal allows users to control the system by entering text commands. Some useful beginner commands include:
+For example, `pwd` can help me understand my current location in the file system, while `ls` can help me see which files and folders are available.
 
-- "pwd" – Displays the current working directory.
-- "ls" – Lists files and directories.
-- "cd" – Changes the current directory.
-- "whoami" – Displays the current username.
-- "clear" – Clears the visible terminal screen.
-- "man ls" – Opens the manual for the "ls" command.
+**Lab safety** is important when learning cybersecurity. I should use a personal computer, virtual machine, or authorized training lab, avoid running unfamiliar commands with administrator privileges, and keep backups of important files. I must never test systems without permission.
 
-For example, "pwd" helps identify the current location in the file system, while "ls" shows the files and folders available in that location.
+## Practical Work and Tools
 
-3. Lab Safety
+- **What I actually did:** Reviewed the basic purpose of the Kali Linux desktop and terminal, along with safe practices for a cybersecurity lab. Specific hands-on activities have not been confirmed.
+- **Tools actually used:** Kali Linux environment. No specific terminal commands or additional tools are confirmed as having been used.
+- **Evidence:** Notes about basic terminal commands, desktop navigation, and lab safety. A sanitized screenshot may be added if available.
 
-Lab safety is important when learning cybersecurity. A personal computer, virtual machine, or authorized training lab should be used for practice. Unfamiliar commands should not be run with administrator privileges without understanding their purpose. Important files should be backed up, and systems should never be tested without permission.
+## Key Takeaways
 
-Practical Work and Tools
+- Kali Linux provides both graphical tools and a command-line terminal.
+- The terminal can make file navigation and system tasks more efficient.
+- `pwd` shows the current directory, and `ls` lists its contents.
+- I should understand a command before running it, especially when administrator privileges are involved.
+- Cybersecurity practice should take place only in systems I own or have explicit permission to test.
 
-- Environment: Kali Linux.
-- Topics Reviewed: Desktop environment, terminal basics, and lab safety.
-- Commands Studied: "pwd", "ls", "cd", "whoami", "clear", and "man ls".
-- Practical Work: Hands-on activities should be recorded according to the commands and tasks actually performed.
+## Challenges and Questions
 
-Key Takeaways
+I am still becoming familiar with the Kali Linux desktop and terminal. I want to learn how to navigate directories confidently, understand command options, and recognize commands that could modify or delete files.
 
-- Kali Linux provides both a graphical desktop and a command-line terminal.
-- The terminal helps users navigate files and directories efficiently.
-- The "pwd" command displays the current directory.
-- The "ls" command lists files and directories.
-- Understanding commands before executing them helps prevent accidental damage.
-- Cybersecurity activities must be performed only on systems owned by the user or for which permission has been granted.
+## Reflection
 
-Challenges and Questions
+Today, I learned about the Kali Linux desktop, the purpose of the terminal, and the importance of working in a safe lab environment. I understand that basic commands can help me navigate the file system and inspect my working environment. I want to practise simple navigation commands and learn how to use a virtual machine safely before exploring more advanced cybersecurity tools.
 
-I am still becoming familiar with the Kali Linux desktop and terminal. I want to improve my understanding of directory navigation, command options, and commands that can modify or delete files.
+## Safety
 
-Reflection
-
-Today, I learned about the Kali Linux desktop, the purpose of the terminal, and the importance of maintaining a safe cybersecurity lab environment. I understood how basic commands help users navigate the file system and inspect their working environment. I will continue practising basic commands and learn to use a virtual machine safely before exploring advanced cybersecurity tools.
-
-Safety Reminder
-
-Only test systems that you own or have explicit permission to assess. Avoid unfamiliar commands that may damage data. Never include passwords, private keys, personal information, or confidential system details in a training diary.
+Only test systems I own or have explicit permission to assess. I will avoid unfamiliar commands that could damage data and will never include passwords, keys, personal data, or private system details in my training diary.
